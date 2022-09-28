@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width">
+    <title>Тестовое задание Дорохов Иван</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <div class="container" id="container">
+        <h1>Таблица выпускников 2022</h1>
+        <input type="text" class="form-control pull-right" id="search" placeholder="Поиск по таблице">  
+        <button id="Find">Find</button>
+        <p id="text"></p>
+    <div class="wrapper" id="wrapper">
+        <div class="box a" >ФИО</div>
+        <div class="box a" >Институт</div>
+        <div class="box a" >Направление</div>
+        <div class="box a" >Научный руководитель</div>
+        <div class="box a" >Наименнование ВКР</div>
+      
+        <div class="row" id="row">
+          <div class="box b" data-label="ФИО:">Иванов Иван Иваныч</div>
+          <div class="box n" data-label="Институт:">ИПМКН</div>
+          <div class="box n" data-label="Направление:">Прикладная информатика</div>
+          <div class="box n" data-label="Научный руководитель:">Попов Максим Дмитриевич</div>
+          <div class="box i" data-label="Наименнование ВКР:">Разработка алгоритма определения местоположения объектов в пространстве с помощью технологии WI-FI</div>
+        </div>
+      
+        <div class="row">
+          <div class="box b" data-label="ФИО:">Федоров Илья Кузьмич</div>
+          <div class="box n" data-label="Институт:">ИПМКН</div>
+          <div class="box n" data-label="Направление:">Мат. обеспечение</div>
+          <div class="box n" data-label="Научный руководитель:">Нефедов Марк Денисович</div>
+          <div class="box i" data-label="Наименнование ВКР:">Разработка эволюционного прототипа редактора вариантов использования</div>
+        </div>
+
+        <div class="row">
+            <div class="box b" data-label="ФИО:">Степанченко Олег Дзынь</div>
+            <div class="box n" data-label="Институт:">ФПМК</div>
+            <div class="box n" data-label="Направление:">Инф. безопасность</div>
+            <div class="box n" data-label="Научный руководитель:">Ершов Тимофей Алиевич</div>
+            <div class="box i" data-label="Наименнование ВКР:">Разработка алгоритма и процедуры выбора параметров для фильтрации в низкочастотной части спектра в системе PROspect</div>
+          </div>
+
+          <div class="row">
+            <div class="box b" data-label="ФИО:">Борщ Артем Олегович</div>
+            <div class="box n" data-label="Институт:">ФИНФ</div>
+            <div class="box n" data-label="Направление:">Мат. моделирование</div>
+            <div class="box n" data-label="Научный руководитель:">Ширяев Артём Артёмович</div>
+            <div class="box i" data-label="Наименнование ВКР:">Математическое моделирование и исследование рынка как самоуправляемой системы</div>
+          </div> 
+      </div>
+    </div> 
+    <script src="main.js"></script>
+</body>
